@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: Ecommerce API
+  version: 1.0.0
+paths:
+  /api/products:
+    get:
+      summary: Retrieve all products
+      responses:
+        '200':
+          description: A list of products
